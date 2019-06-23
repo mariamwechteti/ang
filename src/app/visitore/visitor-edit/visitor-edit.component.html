@@ -1,0 +1,90 @@
+<div class="container-fluid" style="   padding-bottom:130px;width: 80%;margin-left: 20%;">
+    <form [formGroup]="formGroup" autocomplete="off" novalidate (ngSubmit)="updateUser(formGroup.value)">
+      <div class="form-horizontal well">
+        <div class="form-group">
+            <label for="userName" class="control-label col-md-2" i18n>userName: </label>
+            <div class="col-md-5">
+             <input type="text" formControlName="userName" id="userName" class="form-control" />
+            </div>
+            <div class="col-md-5">
+             <em *ngIf="validateControl('userName') && hasError('userName', 'required')" i18n>userName is required</em>
+              <em *ngIf="validateControl('userName') && hasError('userName', 'maxlength')" i18n>Maximum allowed length is 60 characters.</em>
+            </div>
+          </div>
+           
+       
+           
+          <div class="form-group">
+            <label for="firstName" class="control-label col-md-2" i18n>firstName: </label>
+            <div class="col-md-5">
+              <input type="text" formControlName="firstName" id="firstName" class="form-control" />
+            </div>
+            <div class="col-md-5">
+              <em *ngIf="validateControl('firstName') && hasError('firstName', 'required')" i18n>firstName is required</em>
+              <em *ngIf="validateControl('firstName') && hasError('firstName', 'maxlength')" i18n>Maximum allowed length is 100 characters.</em>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastName" class="control-label col-md-2" i18n>lastName: </label>
+            <div class="col-md-5">
+              <input type="text" formControlName="lastName" id="lastName" class="form-control" />
+            </div>
+            <div class="col-md-5">
+              <em *ngIf="validateControl('lastName') && hasError('lastName', 'required')" i18n>lastName is required</em>
+              <em *ngIf="validateControl('lastName') && hasError('lastName', 'maxlength')" i18n>Maximum allowed length is 100 characters.</em>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="control-label col-md-2" i18n>password: </label>
+            <div class="col-md-5">
+              <input type="password" formControlName="password" id="password" class="form-control" />
+            </div>
+            <div class="col-md-5">
+              <em *ngIf="validateControl('password') && hasError('password', 'required')" i18n>password is required</em>
+              <em *ngIf="validateControl('password') && hasError('password', 'maxlength')" i18n>Maximum allowed length is 100 characters.</em>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="control-label col-md-2" i18n>email: </label>
+            <div class="col-md-5">
+              <input type="email" formControlName="email" id="email" class="form-control" />
+            </div>
+            <div class="col-md-5">
+              <em *ngIf="validateControl('email') && hasError('email', 'required')" i18n>email is required</em>
+              <em *ngIf="validateControl('email') && hasError('email', 'maxlength')" i18n>Maximum allowed length is 100 characters.</em>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="role" class="control-label col-md-2" i18n>role: </label>
+            <div class="col-md-5">
+              <input type="text" formControlName="role" id="role" class="form-control" />
+            </div>
+            <div class="col-md-5">
+              <em *ngIf="validateControl('role') && hasError('role', 'required')" i18n>role is required</em>
+              <em *ngIf="validateControl('role') && hasError('role', 'maxlength')" i18n>Maximum allowed length is 100 characters.</em>
+            </div>
+          </div>
+<br><br>
+<div class="form-group">
+    <div class="col-md-offset-5 col-md-1">
+        <button type="submit" class="btn btn-info" i18n>Update</button>
+    </div>
+    <div class="col-md-1">
+       <button type="button" class="btn btn-danger" (click)="redirectToUserList()" i18n>Cancel</button>
+    </div>
+</div>
+        
+      </div>
+    </form>
+    <!--
+  <app-success-modal [modalHeaderText]="'Success message'" 
+    [modalBodyText]="'Action completed successfully'" 
+    [okButtonText]="'OK'" 
+    (redirectOnOK)="redirectToUserList()"></app-success-modal>
+   
+    <app-error-modal [modalHeaderText]="'Error message'" 
+    [modalBodyText]="errorMessage" 
+    [okButtonText]="'OK'"></app-error-modal>
+    -->
+  
+  </div>

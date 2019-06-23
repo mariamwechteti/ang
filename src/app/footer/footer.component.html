@@ -1,0 +1,129 @@
+
+<!--
+<footer class="page-footer font-small indigo" style="background-color:rgb(30, 3, 104); color: antiquewhite;">
+
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-3 mx-auto" >
+
+
+        <h5 i18n class="font-weight-bold text-uppercase mt-3 mb-4">LANGUAGE</h5>
+
+        <ul class="list-unstyled" >
+          <li>
+            <a i18n href="/fr">FRENCH</a>
+          </li>
+          <li>
+            <a i18n href="/en">ENGLIGH</a>
+          </li>
+          <li>
+            <a i18n  href="/it">ITALIAN</a>
+          </li>
+          <li>
+            <a i18n href="/ar">ARABIC</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <div class="col-md-3 mx-auto">
+
+        <ul class="list-unstyled" >
+          <li>
+            <a i18n href="#!">ABOUT</a>
+          </li>
+          
+        </ul>
+
+      </div>
+
+      
+      <hr class="clearfix w-100 d-md-none">
+
+
+      <div class="col-md-3 mx-auto">
+
+        <ul class="list-unstyled" >
+          <li>
+            <a i18n  (click)="logout()" routerLink=""  *ngIf="authService.loggedIn">LOGOUT</a>
+          </li>
+          
+        </ul>
+     
+
+      </div>
+  
+
+      <hr class="clearfix w-100 d-md-none">
+
+     
+      <div class="col-md-3 mx-auto">
+
+   
+       <ul class="list-unstyled" >
+          <li>
+            <a i18n href="#!">HOME</a>
+          </li>
+          
+        </ul>
+
+    
+  </div>
+    </div>
+
+    
+
+  </div>
+
+
+ 
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> Ditriot Consulting.com</a>
+  </div>
+
+
+</footer>
+-->
+<!-- Footer -->
+<footer class="page-footer font-small indigo pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Call to action -->
+    <ul   *ngIf="authService.loggedIn" class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1" i18n>Good bye</h5>
+      </li>
+      <li class="list-inline-item">
+        <a   (click)="logout()" mdbBtn color="white" outline="true" rounded="true" class="waves-light" mdbWavesEffect i18n>Log out!</a>
+      </li>
+    </ul>
+    <!-- Call to action --><!-- Call to action -->
+    <ul   *ngIf="!authService.loggedIn" class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1" i18n>heyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</h5>
+      </li>
+      <li class="list-inline-item">
+          <a  routerLink="login" mdbBtn color="white" outline="true" rounded="true" class="waves-light" mdbWavesEffect i18n>Log in!</a>
+
+      </li>
+    </ul>
+    <br>
+    <br>
+    <!-- Call to action -->
+
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> DItriot Consulting.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->

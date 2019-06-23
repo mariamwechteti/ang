@@ -1,0 +1,6 @@
+
+table ,mat-paginator{ 
+    width: 80%; /* whichever width you want */
+    margin-left: 20%; /* minus the amount to make it 100% */
+}
+ 

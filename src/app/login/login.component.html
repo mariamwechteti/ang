@@ -1,0 +1,51 @@
+
+<!-- Default form login -->
+<!-- Material form login -->
+<div class="card form-signin">
+
+  <h5 class="card-header info-color white-text text-center py-4">
+    <strong i18n>Sign in</strong>
+  </h5>
+
+  <!--Card content-->
+  <div class="card-body px-lg-5 pt-0">
+
+    <!-- Form -->
+    <form class="text-center " style="color: #757575;" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+      <!-- Email -->
+      <div class="md-form">
+        <input type="email" id="materialLoginFormEmail"  [ngClass]="{ 'is-invalid': submitted && f.userName.errors }" formControlName="userName" class="form-control">
+        <label for="materialLoginFormEmail" i18n>UserName</label>
+        <div *ngIf="submitted && f.userName.errors" class="invalid-feedback">
+          <div i18n *ngIf="f.userName.errors.required">Username is required</div>
+      </div>
+      </div>
+
+      <!-- Password -->
+      <div class="md-form">
+        <input type="password" id="materialLoginFormPassword" formControlName="password" class="form-control"  [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+        <label for="materialLoginFormPassword" i18n>Password</label>
+        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+          <div i18n  *ngIf="f.password.errors.required">Password is required</div>
+      </div>
+      </div>
+
+     
+
+      <!-- Sign in button -->
+      <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
+
+      <!-- Register -->
+      <p>Not a member?
+        <a  [routerLink]="['/register']">Register</a>
+      </p>
+
+
+    </form>
+    <!-- Form -->
+
+  </div>
+
+</div>
+<!-- Material form login -->

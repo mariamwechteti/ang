@@ -1,0 +1,28 @@
+<div>
+	<mat-card *ngFor="let claim  of Claim; let alpha of imageurl"class="example-card">
+		<mat-card-header>
+		  <div mat-card-avatar class="example-header-image"></div>
+		  <mat-card-title>{{claim._id}}</mat-card-title>
+		  <mat-card-subtitle>{{claim.time}}</mat-card-subtitle>
+		</mat-card-header>
+			<img mat-card-image *ngIf="url" [src]="imageurl" >
+
+	
+		<mat-card-content>
+		  <div>	<p>{{claim.desc}}</p></div>	
+		  
+		</mat-card-content>
+		<mat-card-actions>
+			<button mat-icon-button [routerLink]="['/claims/edit']" (click)="editUser(claim._id)">
+				<mat-icon>mode_edit</mat-icon>
+			</button>
+	
+			<button mat-icon-button (click)="deleteUser(claim._id)">
+				<mat-icon>delete</mat-icon>
+			</button>
+		</mat-card-actions>
+	  </mat-card>
+		<div>
+			<a [routerLink]="['/claims/add']" mat-button color="primary" i18n>Create Claim</a>
+		</div>
+</div>

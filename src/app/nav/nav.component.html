@@ -1,0 +1,90 @@
+
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo" [containerInside]="false" *ngIf="isLoggedIn$">
+  <span><img  src="../../assets/avatar.png"  style="width:50px;" i18n></span>
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Claims</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link waves-light" mdbWavesEffect routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin " routerLink="vistors" ><mat-icon matListIcon class="app-nav-list-icon" > people </mat-icon><span i18n>users</span><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin " routerLink="claims/list" ><mat-icon matListIcon class="app-nav-list-icon" >list </mat-icon><span i18n>claims</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin "><mat-icon matListIcon class="app-nav-list-icon" > dashboard </mat-icon><span i18n>dashboard</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect routerLinkActive="active" *ngIf="authService.loggedIn " routerLink="profile" ><mat-icon matListIcon class="app-nav-list-icon" > perm_identity </mat-icon><span i18n>profile</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect routerLinkActive="active" *ngIf="authService.loggedIn " routerLink="google-map" ><mat-icon matListIcon class="app-nav-list-icon" > location_on</mat-icon><span i18n>location</span></a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+           <span >language</span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect  href="/fr"><span i18n>FRENCH</span></a>
+          <a class="dropdown-item waves-light" mdbWavesEffect  href="/en"><span i18n>ENGLISH</span></a>
+        </div>
+      </li>
+
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--
+<mat-sidenav-container class="sidenav-container" *ngIf="isLoggedIn$">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="!(isHandset$ | async)">
+    <mat-toolbar i18n>Menu</mat-toolbar>
+    <mat-nav-list>
+        <h2 matSubheader i18n>Admin </h2>
+
+      <a i18n mat-list-item routerLink="vistors" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin "><mat-icon matListIcon class="app-nav-list-icon" > people </mat-icon>
+        Users</a>
+      <a i18n mat-list-item routerLink="claims/list" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin"><mat-icon matListIcon class="app-nav-list-icon" > list </mat-icon>Claims</a>
+      <a  i18n mat-list-item routerLink="profile" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin"> <mat-icon matListIcon class="app-nav-list-icon" > perm_identity </mat-icon>Profile</a>
+      <a  i18n mat-list-item routerLink="profile" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin"> <mat-icon matListIcon class="app-nav-list-icon" > dashboard </mat-icon>Dashboard</a>
+
+      <mat-divider></mat-divider>
+      <h2 matSubheader>Visitors</h2>
+      <a i18n mat-list-item routerLink="profile" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin"> <mat-icon matListIcon class="app-nav-list-icon" > perm_identity </mat-icon>Profile</a>
+      <a i18n mat-list-item routerLink="claims/list" routerLinkActive="active" *ngIf="authService.loggedIn && authService.isAdmin"> <mat-icon matListIcon class="app-nav-list-icon" > border_color </mat-icon>Claims</a>
+      <a i18n mat-list-item routerLink="google-map" routerLinkActive="active" *ngIf="authService.loggedIn"> <mat-icon matListIcon class="app-nav-list-icon" > location_on </mat-icon>Location</a>
+
+
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" >
+        
+      
+          <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()"
+          *ngIf="isHandset$ | async">
+          <mat-icon i18n aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+        <span><img  src="../../assets/avatar.png"  style="width:50px;" i18n></span>
+
+      <span i18n>Claims</span>
+     
+    </mat-toolbar>
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+-->

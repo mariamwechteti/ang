@@ -1,0 +1,120 @@
+<div class="wrapper" style=" background-color: antiquewhite; width: 86%;margin-left:14%;">
+
+
+
+      <div class="content">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-8">
+                      <div class="card">
+                          <div class="header">
+                              <h4 i18n class="title">Edit Profile</h4>
+                          </div>
+                          <form [formGroup]="formGroup" autocomplete="off" novalidate (ngSubmit)="updateUser(formGroup.value)">
+                            <div class="form-horizontal well">
+                              <div class="form-group">
+                                  <label for="userName" i18n class="control-label col-md-2">userName: </label>
+                                  <div class="col-md-5">
+                                   <input type="text" formControlName="userName"  id="userName" class="form-control" />
+                                  </div>
+                                  <div class="col-md-5">
+                                   <em i18n *ngIf="validateControl('userName') && hasError('userName', 'required')">userName is required</em>
+                                    <em i18n *ngIf="validateControl('userName') && hasError('userName', 'maxlength')">Maximum allowed length is 60 characters.</em>
+                                  </div>
+                                </div>
+                                 
+                             
+                                 
+                                <div class="form-group">
+                                  <label i18n for="firstName" class="control-label col-md-2">firstName: </label>
+                                  <div class="col-md-5">
+                                    <input type="text" formControlName="firstName" id="firstName" class="form-control" />
+                                  </div>
+                                  <div class="col-md-5">
+                                    <em  i18n *ngIf="validateControl('firstName') && hasError('firstName', 'required')">firstName is required</em>
+                                    <em i18n *ngIf="validateControl('firstName') && hasError('firstName', 'maxlength')">Maximum allowed length is 100 characters.</em>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label i18n for="lastName" class="control-label col-md-2">lastName: </label>
+                                  <div class="col-md-5">
+                                    <input type="text" formControlName="lastName" id="lastName" class="form-control" />
+                                  </div>
+                                  <div class="col-md-5">
+                                    <em i18n *ngIf="validateControl('lastName') && hasError('lastName', 'required')">lastName is required</em>
+                                    <em  i18n *ngIf="validateControl('lastName') && hasError('lastName', 'maxlength')">Maximum allowed length is 100 characters.</em>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label i18n for="password" class="control-label col-md-2">password: </label>
+                                  <div class="col-md-5">
+                                    <input type="password" formControlName="password" id="password" class="form-control" />
+                                  </div>
+                                  <div class="col-md-5">
+                                    <em  i18n *ngIf="validateControl('password') && hasError('password', 'required')">password is required</em>
+                                    <em  i18n *ngIf="validateControl('password') && hasError('password', 'maxlength')">Maximum allowed length is 100 characters.</em>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label i18n for="email" class="control-label col-md-2">email: </label>
+                                  <div class="col-md-5">
+                                    <input type="email" formControlName="email" id="email" class="form-control" />
+                                  </div>
+                                  <div class="col-md-5">
+                                    <em i18n *ngIf="validateControl('email') && hasError('email', 'required')">email is required</em>
+                                    <em i18n *ngIf="validateControl('email') && hasError('email', 'maxlength')">Maximum allowed length is 100 characters.</em>
+                                  </div>
+                                </div>
+                               
+                      <br><br>
+                      <div class="form-group">
+                          <div class="col-md-offset-5 col-md-1">
+                              <button i18n type="submit" class="btn btn-info">Update</button>
+                          </div>
+                         
+                      </div>
+                              
+                            </div>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card card-user">
+                          <div class="image">
+                              <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
+                          </div>
+                          <div class="content">
+                              <div class="author">
+                                   <a href="#">
+                                  <img class="avatar border-gray" src="src/asset/assets/img/faces/face-3.jpg" alt="..."/>
+
+                                    <h4 class="title">Mike Andrew<br />
+                                       <small>michael24</small>
+                                    </h4>
+                                  </a>
+                              </div>
+                              <p class="description text-center"> "Lamborghini Mercy <br>
+                                                  Your chick she so thirsty <br>
+                                                  I'm in that two seat Lambo"
+                              </p>
+                          </div>
+                          <hr>
+                          <div class="text-center">
+                              <button href="#" class="btn btn-simple"><i class="fa fa-facebook-square"></i></button>
+                              <button href="#" class="btn btn-simple"><i class="fa fa-twitter"></i></button>
+                              <button href="#" class="btn btn-simple"><i class="fa fa-google-plus-square"></i></button>
+
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+
+     
+
+  </div>
+
+

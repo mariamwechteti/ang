@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cd9c8ea1d50a8cd0a86dfb654621724ff4fdb022" datatype="html">
+        <source>LANGUAGE</source>
+        <target>LANGUE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c00031f0102b4a2db2930f9e73b671013d424eb" datatype="html">
+        <source>FRENCH</source>
+        <target>FRANCAIS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06c5c20f46e541be595f46ccdea2580fcf78b2b6" datatype="html">
+        <source>ENGLIGH</source>
+        <target>ANGLAIS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50bfd1fbe14e774e372865e76a7643750cfec7d0" datatype="html">
+        <source>ITALIAN</source>
+        <target>ITALIEN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3763c528ab36874a5b7aacbc12d72af197e5e38e" datatype="html">
+        <source>ARABIC</source>
+        <target>ARABE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ccc315673e88d7490220d465da566e3acff72d5" datatype="html">
+        <source>ABOUT</source>
+        <target>A PROPOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afd707a7a917a96605804e92e66cb17e2bf5c7e2" datatype="html">
+        <source>LOGOUT</source>
+        <target>SE DECONNECTER</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dcf8f15418a05a2f5b06cfe12eecbb46e94b13e1" datatype="html">
+        <source>HOME</source>
+        <target>ACCUEIL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/footer/footer.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63a988d71f146da942b6b97d3770b55472c33f08" datatype="html">
+        <source>Claim</source>
+        <target>RECLAMATION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/claims-list/claims-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d92409f6f96b15d43fc55e1e557f55a485ab61c" datatype="html">
+        <source>Featured post</source>
+        <target>POSTE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/claims-list/claims-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b87c4ca7047ed9b11945bae4f3432ca197a2d06" datatype="html">
+        <source>Ecrire ta reclamation </source>
+        <target>ECRIRE VOTRE RECLAMATION</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/claims-create/claims-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <target>ENREGISTEZ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/claims-create/claims-create.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="287d3301a32a65a1b31116bda5d3a6463158c42a" datatype="html">
+        <source>Sign in</source>
+        <target>LANCEZ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="108d7d104f08920d4c40f2fce7cc1795d0d38f2b" datatype="html">
+        <source>UserName</source>
+        <target>PSEUDONYME</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0070e83d11da39d6f4bb95065c2675db1610b419" datatype="html">
+        <source>Username is required</source>
+        <target>PSEUDONYME ES NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
+        <source>Password</source>
+        <target>MOT DE PASSE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e20f8b8a4706526c9024cc2f39d568345d100dc" datatype="html">
+        <source>Password is required</source>
+        <target>MOT DE PASSE EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3eb49d60bd859eb2d9d3a6d380cdf4e0b8252333" datatype="html">
+        <source>Remember me</source>
+        <target>RAPPELLE MOI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3a8e04b34236be1cb450987973bcb7b33d483e35" datatype="html">
+        <source>Forgot password?</source>
+        <context-group purpose="location">
+        <target>MOT DE PASSE OUBLIE</target>
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a2022fd4e5c7736482f2f4b6ac871ce00012a181" datatype="html">
+        <source>Not a member?
+        <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Register<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+    </source>
+    <target>PAS UN MEMBRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/login/login.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c40c132843f349c3aa49730405de1d0ca733aef6" datatype="html">
+        <source>Sign up</source>
+        <target>ENREGISTREZ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62b6c66981335ca6eecc36b331103c60f09d1026" datatype="html">
+        <source>First name</source>
+        <target>PRENOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cab468dd7303f0863af969989f3c1a1475740415" datatype="html">
+        <source>First Name is required</source>
+        <target>PRENOM EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ce3dadf53dda1a1ab0c3167a8ed8dced471b0dc" datatype="html">
+        <source>Last name</source>
+        <target>NOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc2e75a51145dfc8b511b8a47175f9b65f82d9c7" datatype="html">
+        <source>Last Name is required</source>
+        <target>NOM EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f85dc01e7aab1a5c282d14b74650255ae4042fe0" datatype="html">
+        <source>E-mail</source>
+        <target>EMAIL</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="add7e6e8e77f78fbd169b6cd5333d94e80036da6" datatype="html">
+        <source>email is required</source>
+        <target>EMAIL EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fb7ef504cdd18dcc8621dcf7a1bdeb79593a79f" datatype="html">
+        <source>Subscribe to our newsletter</source>
+        <target>ABONNEZ VOUS A NOTRE newsletter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/registration/registration.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3781ad331fdd0bc9055c45a41664ac467de63af" datatype="html">
+        <source>Edit Profile</source>
+        <target>MODIFIEZ VOTRE PROFILE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa83a8fa1fc4aa61ec19f265147c223e32022b0d" datatype="html">
+        <source>userName: </source>
+        <target>PSEUDONYME</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95cf7ebb9f7895a39c3d5a73d05976280cbf53f4" datatype="html">
+        <source>userName is required</source>
+        <target>PSEUDONYME EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="edb7a8f727d9958afb6ca7d85b761417993a7687" datatype="html">
+        <source>Maximum allowed length is 60 characters.</source>
+        <target>LA LONGUEUR MAXIMUM PERMIS EST 60 LETTRES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7296e64466b9de52b2e4ef8254b386a79f0d211a" datatype="html">
+        <source>firstName: </source>
+        <target>PRENOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a439cd91f2fb521c4f4793618bce33fd449de6b" datatype="html">
+        <source>firstName is required</source>
+        <target>PRENOM EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c406a3282b16c38584b8f46f42a1cb5118870e2" datatype="html">
+        <source>Maximum allowed length is 100 characters.</source>
+        <target>LA LONGUEUR MAXIMUM PERMIS EST 100 LETTRES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fe6aaee58e930d46e9801d2b9c5bd4d7b24df15" datatype="html">
+        <source>lastName: </source>
+        <target>NOM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="394e2584740ed8b1c6e3f7ede03bfc0ee64acb3c" datatype="html">
+        <source>lastName is required</source>
+        <target>NOM EST NECESSAIRE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ab6b5610d1595a310b97e39f982bbac85d37949" datatype="html">
+        <source>password: </source>
+        <target>MOT DE PASSE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49b4213f881402c9d8c814290025246f9f6e8a9c" datatype="html">
+        <source>password is required</source>
+        <target>MOT DE PASSE EST NECESSAIRE </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e84d09a32b2e03feea364edda1c3f2767e1daeb" datatype="html">
+        <source>email: </source>
+        <target>EMAIL </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="047f50bc5b5d17b5bec0196355953e1a5c590ddb" datatype="html">
+        <source>Update</source>
+        <target>MODIFIEZ </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/profile/profile.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="41aac9cecddc9f345c263d3742192e68e227e413" datatype="html">
+        <source>Menu</source>
+        <target>MENU</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4a6514ac41420241b51cec29110ad40924ca65e" datatype="html">
+        <source>Admin </source>
+        <target>ADMIN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="844082484d67167519dd001d926e1c83f75ec578" datatype="html">
+        <source><x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/> people <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>
+        Users</source>
+        <target>UTILISATEURS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8270ebdb5271ca63ec4c51d7479a2c23da8f71d" datatype="html">
+        <source><x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/> list <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>Claims</source>
+        <target>RECLAMATIONS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bacf6243b1f477deb6613390733e2c657e6d977" datatype="html">
+        <source> <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/> perm_identity <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>Profile</source>
+        <target>PROFILE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91f9039a9315a5ecc04c873e8ea88fbf194a761d" datatype="html">
+        <source> <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/> border_color <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>Claims</source>
+        <target>RECLAMATIONS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f859795c744f43094ce44fa8522001fa53748d7" datatype="html">
+        <source> <x id="START_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;mat-icon&gt;"/> location_on <x id="CLOSE_TAG_MAT-ICON" ctype="x-mat-icon" equiv-text="&lt;/mat-icon&gt;"/>Location</source>
+   <target>LOCALISATION </target>
+    <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8973bc8c23a3f7c42aa9bd447386a3b0d26b74bc" datatype="html">
+        <source>menu</source>
+        <target>MEMU </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17a9b65e73ea0458621487151f4a84a98df7543b" datatype="html">
+        <source>Claims</source>
+        <target>RECLAMATIONS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
